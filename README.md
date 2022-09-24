@@ -1,4 +1,4 @@
-# Surgical_Instrument_Tracker
+# Surgical_Instrument_Tracker_Stanford
 
 This repo contains a training and testing algorithm for a ConvLSTM Surgical Tool Tracker. The model architecture (R+CL+C) can be found in this https://arxiv.org/pdf/1812.01366.pdf paper which includes a weakly supervised convolutional LSTM approach for tool tracking in laparoscopic videos. The model trains on the cholec80 dataset which contains 80 videos of cholecystectomy surgeries. The dataset also contains text files with frame-wise tool binary presence labels. 
 
